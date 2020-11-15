@@ -1,7 +1,9 @@
 package models;
 
+import javax.xml.bind.annotation.XmlRootElement;
 import java.util.Date;
 
+@XmlRootElement
 public class News {
     private int id;
     private String name;

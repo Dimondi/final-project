@@ -1,5 +1,8 @@
 package models;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class User {
     private int id;
     private String email;

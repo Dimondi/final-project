@@ -1,5 +1,8 @@
 package models;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
 public class Admin extends User{
 
     public Admin(String email) {
